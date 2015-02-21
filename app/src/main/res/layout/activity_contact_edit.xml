@@ -1,0 +1,59 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="8dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			style="@style/contact_edit_label"
+			android:text="@string/label_name"/>
+
+		<EditText
+			android:id="@+id/name"
+			style="@style/contact_edit_edit"
+			android:inputType="textCapWords"/>
+
+		<TextView
+			style="@style/contact_edit_label"
+			android:text="@string/label_title"/>
+
+		<EditText
+			android:id="@+id/title"
+			style="@style/contact_edit_edit"
+			android:inputType="textCapWords"/>
+
+		<TextView
+			style="@style/contact_edit_label"
+			android:text="@string/label_phone"/>
+
+		<EditText
+			android:id="@+id/phone"
+			style="@style/contact_edit_edit"
+			android:inputType="phone"/>
+
+		<TextView
+			style="@style/contact_edit_label"
+			android:text="@string/label_email"/>
+
+		<EditText
+			android:id="@+id/email"
+			style="@style/contact_edit_edit"
+			android:inputType="textEmailAddress"/>
+
+		<TextView
+			style="@style/contact_edit_label"
+			android:text="@string/label_twitter"/>
+
+		<EditText
+			android:id="@+id/twitter"
+			style="@style/contact_edit_edit"
+			android:inputType="textEmailAddress"/>
+
+	</LinearLayout>
+
+</ScrollView>

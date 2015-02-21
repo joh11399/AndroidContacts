@@ -1,0 +1,144 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="8dp">
+
+	<TextView
+		android:id="@+id/name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Mike Weispfenning"
+		android:textSize="32sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:padding="16dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="8dp">
+
+		<TextView
+			style="@style/contact_view_label"
+			android:id="@+id/label_title"
+			android:text="@string/label_title"/>
+
+		<TextView
+			style="@style/contact_view_text"
+			android:id="@+id/title"
+			android:text="Cool Dude"/>
+
+		<View
+			android:id="@+id/separator_title_phone"
+			style="@style/separator"/>
+
+		<LinearLayout
+			android:id="@+id/phone_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:padding="8dp"
+				android:src="@drawable/ic_phone_white_36dp"/>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<TextView
+					style="@style/contact_view_label"
+					android:id="@+id/label_phone"
+					android:text="@string/label_phone"/>
+
+				<TextView
+					style="@style/contact_view_text"
+					android:id="@+id/phone"
+					android:text="(612) 819-7552"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/separator_phone_email"
+			style="@style/separator"/>
+
+		<LinearLayout
+			android:id="@+id/email_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:padding="8dp"
+				android:src="@drawable/ic_email_white_36dp"/>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<TextView
+					style="@style/contact_view_label"
+					android:id="@+id/label_email"
+					android:text="@string/label_email"/>
+
+				<TextView
+					style="@style/contact_view_text"
+					android:id="@+id/email"
+					android:text="weis0292@umn.edu"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<View
+			android:id="@+id/separator_email_twitter"
+			style="@style/separator"/>
+
+		<LinearLayout
+			android:id="@+id/twitter_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:padding="8dp"
+				android:src="@drawable/ic_twitter_white_36dp"/>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical">
+
+				<TextView
+					style="@style/contact_view_label"
+					android:id="@+id/label_twitter"
+					android:text="@string/label_twitter"/>
+
+				<TextView
+					style="@style/contact_view_text"
+					android:id="@+id/twitter"
+					android:text="weispfenning"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

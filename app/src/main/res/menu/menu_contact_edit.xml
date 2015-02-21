@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/action_save_contact"
+		android:title="@string/action_save_contact"
+		android:showAsAction="always"
+		android:icon="@drawable/ic_check_white_36dp"/>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Android Contacts</string>
+	<string name="title_activity_contacts">Contacts</string>
+	<string name="action_add_contact">Add Contact</string>
+	<string name="action_edit_contact">Edit Contact</string>
+	<string name="action_delete_contact">Delete Contact</string>
+	<string name="action_view_contact">View Contact</string>
+	<string name="action_save_contact">Save Contact</string>
+	<string name="no_items">Add a Contact</string>
+	<string name="title_activity_contact_edit">Edit Contact</string>
+	<string name="title_activity_contact_new">New Contact</string>
+	<string name="title_activity_contact_view">Contact</string>
+
+	<string name="label_name">NAME</string>
+	<string name="label_title">TITLE</string>
+	<string name="label_phone">PHONE</string>
+	<string name="label_email">EMAIL</string>
+	<string name="label_twitter">TWITTER</string>
+
+	<string name="button_ok">Ok</string>
+	<string name="button_cancel">Cancel</string>
+
+	<string name="delete_contact">Delete %s?</string>
+	<string name="no_name_error">A contact must have a name.</string>
+
+</resources>
